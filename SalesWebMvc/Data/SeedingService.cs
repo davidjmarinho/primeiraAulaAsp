@@ -34,10 +34,10 @@ namespace SalesWebMvc.Data
             Department d4 = new Department(4, "Books");
            
 
-            Seller s1 = new Seller(1, "Bob Marley", "bob@gmail.com", new DateTime(1998 - 04 - 21), 1000.00, d4);
-            Seller s2 = new Seller(2, "Camila Barbosa", "camilabarb@gmail.com", new DateTime(1991 - 03 - 21), 5000.00, d3);
-            Seller s3 = new Seller(3, "John Doe", "johndoe@gmail.com", new DateTime(1989 - 02 - 02), 4000.00, d1);
-            Seller s4 = new Seller(4, "Petter Kim", "petterkim@gmail.com", new DateTime(1985 - 08 - 15), 17000.00, d2);
+            Seller s1 = new Seller(1, "Bob Marley", "bob@gmail.com", new DateTime(1998, 04, 21), 1000.00, d4);
+            Seller s2 = new Seller(2, "Camila Barbosa", "camilabarb@gmail.com", new DateTime(1991, 03, 21), 5000.00, d3);
+            Seller s3 = new Seller(3, "John Doe", "johndoe@gmail.com", new DateTime(1989, 02, 02), 4000.00, d1);
+            Seller s4 = new Seller(4, "Petter Kim", "petterkim@gmail.com", new DateTime(1985, 08, 15), 17000.00, d2);
 
             SalesRecords r1 = new SalesRecords(1, new DateTime(2018, 09, 25), 5000.0, Models.Enums.SaleStatus.Billed, s1);
             SalesRecords r2 = new SalesRecords(2, new DateTime(2018, 01, 15), 12000.0, Models.Enums.SaleStatus.Billed, s2);
