@@ -3,7 +3,7 @@ using SalesWebMvc.Models.Enums;
 
 namespace SalesWebMvc.Models
 {
-    public class SalesRecord
+    public class SalesRecords
     {
         public int Id { get; set; }
 
@@ -15,13 +15,13 @@ namespace SalesWebMvc.Models
 
         public Seller Seller { get; set; }
 
-        public SalesRecord()
+        public SalesRecords()
         {
 
 
         }
 
-        public SalesRecord(int id, DateTime date, double amount, SaleStatus status, Seller seller)
+        public SalesRecords(int id, DateTime date, double amount, SaleStatus status, Seller seller)
         {
             Id = id;
             Date = date;
